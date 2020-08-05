@@ -1,0 +1,32 @@
+title: ElecTRON - IT World News
+email: ElecTRON
+description: News about tech, gadgets, electronics and other information from IT industry
+
+themecolor: '#202225'
+imagehome: img/electron.jpg
+baseurl: '/' # the subpath of your site, e.g. /blog
+url: 'http://electron.raymoff.com' # the base hostname & protocol for your site, e.g. http://example.com
+
+plugins: [jekyll-paginate-v2]
+category_dir: blog
+pagination:
+  enable: true
+  per_page: 9
+  title: ':title - Page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: 'true'
+  trail:
+    before: 2
+    after: 2
+
+exlude: ['node_modules', 'gulpfile.js', 'package.json', 'package-lock.json', 'js/commons.js', 'npm-debug.log', 'css/main.sass', '**/Thumbs.db', 'libs', 'sass']
+
+soc: 
+  <li><a href="#"><i class="fa fa-vk"></i></a></li>
+  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+  <li><a href="#"><i class="fa fa-odnoklassniki"></i></a></li>
+  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+  <li><a href="#"><i class="fa fa-rss"></i></a></li>
+
+copywright: All rights reserved. Copying content without allowance is prohibited.
